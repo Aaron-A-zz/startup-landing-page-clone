@@ -1,0 +1,77 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+  .links a {
+    color: #838994;
+    text-decoration: none;
+}
+
+.top-navigation {
+    background-color: #fff;
+
+}
+
+.top-navigation .logo {
+    height: 4.375rem;
+
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+}
+.top-navigation .links .active {
+    color: green;
+    font-weight: 500;
+ 
+}
+.top-navigation .links li :hover{
+    cursor: pointer;
+    color: #333333;
+    font-style: bold;
+}
+
+.introduction {
+    background-image: url('../images/background.jpeg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+.introduction h1, .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+
+
+
+
