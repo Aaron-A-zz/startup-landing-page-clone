@@ -97,9 +97,9 @@ html {
 }
 
 ol, ul {
-
     list-style: none;
-
+    padding-left: 0;
+    
 }
 
 .cases {
@@ -135,7 +135,7 @@ ol, ul {
 .social {
     background-color: #f15a29;
     overflow: auto;
-    padding-bottom: 5.375rem;
+    padding-bottom: 1.375rem;
     text-align: center;
   
 }
@@ -160,9 +160,16 @@ ol, ul {
 
 }
 
-.social .copy {
+.h5 {
+    border: 0;
+border-top: 1px solid #eaebec;
+margin: 1.313rem 0;
+}
+
+.copy {
     font-size: 0.9rem;
     font-weight: 300;
+    display: inline-block;
     text-align: center;
 }
 
