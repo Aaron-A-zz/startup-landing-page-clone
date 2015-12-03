@@ -98,8 +98,7 @@ html {
 
 ol, ul {
     list-style: none;
-    padding-left: 0;
-    
+    padding-left: 0; 
 }
 
 .cases {
@@ -155,22 +154,23 @@ ol, ul {
     text-align: center;
 
 }
+
 .social .icons > li:hover {
     cursor: pointer;
 
 }
 
-.h5 {
+ .social h1 {
     border: 0;
-border-top: 1px solid #eaebec;
-margin: 1.313rem 0;
+    margin: 1.313rem 0;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 
 .copy {
     font-size: 0.9rem;
     font-weight: 300;
-    display: inline-block;
-    text-align: center;
+    
 }
 
 
